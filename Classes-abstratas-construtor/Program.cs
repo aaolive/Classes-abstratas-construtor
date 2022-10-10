@@ -6,12 +6,13 @@ namespace Classes_abstratas_construtor
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello, World!");
-
+            // classe Carro
             Veiculo carro = new Carro("Gol", "Wolkswagen", Veiculo.TipoDeVeiculo.Popular);
             Console.WriteLine(carro);
 
-            Veiculo carro2 = new CarroDeCorrida();            
+            // classe CarroDeCorrida
+            Veiculo carro2 = new CarroDeCorrida("Ferrari F1 2022","Ferrari",Veiculo.TipoDeVeiculo.F1);
+            Console.WriteLine(carro2);            
 
         }
     }

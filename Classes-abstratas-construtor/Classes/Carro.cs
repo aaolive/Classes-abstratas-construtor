@@ -16,10 +16,10 @@ namespace Classes_abstratas_construtor.Classes
         {
         }
 
-        public override string ToString()
+        /*public override string ToString()
         {
             return Modelo + " " + Marca + " " + Tipo;
-        }
+        }*/
 
     }
 }

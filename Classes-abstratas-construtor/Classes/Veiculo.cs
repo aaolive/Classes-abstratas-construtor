@@ -27,5 +27,10 @@ namespace Classes_abstratas_construtor.Classes
         {
             F1, Popular, SuperCarro
         }
+
+        public override string ToString()
+        {
+            return Modelo + " " + Marca + " " + Tipo;
+        }
     }
 }
